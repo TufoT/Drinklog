@@ -1,0 +1,163 @@
+.dashboard-container {
+   height: 100vh;
+   width: 90vw;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   margin: 30px 100px;
+}
+
+.section-1 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.water-section {
+    height: 416px;
+    width: 640px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    margin-right: 170px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.calories-section {
+    height: 416px;
+    width: 640px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+}
+
+.water-graph {
+    height: 416px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-one {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #4683CB;
+    z-index: 0;
+    position: relative;
+}
+
+.circle-two {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: #2c2c2c;
+    position: absolute;
+    top: 67px;
+    z-index: 1;
+}
+
+.water-tracker {
+    position: absolute;
+    font-size: 70px;
+    color: #fff;
+    top: 164px;
+    z-index: 2;
+}
+
+.icon {
+    height: 45px;
+    width: 45px;
+    margin: 12px 15px;
+    position: absolute;
+}
+
+.calories-graph {
+    height: 416px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-three {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #D50909;
+    z-index: 0;
+    position: relative;
+}
+
+.circle-four {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: #2c2c2c;
+    position: absolute;
+    top: 98px;
+    z-index: 1;
+}
+
+.calories-tracker {
+    position: absolute;
+    font-size: 70px;
+    color: #fff;
+    top: 196px;
+    z-index: 2;
+}
+
+.graph-section {
+    height: 400px;
+    width: 1450px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*.graph-section h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 15px;
+}
+
+.graph {
+    height: 290px;
+    width: 1355px;
+}
+
+.instructions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.water {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.water-dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #4683CB;
+    margin-right: 8px;
+}
+
+.calories {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.calories-dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #D50909;
+    margin-right: 8px;
+    margin-left: 20px;
+} */

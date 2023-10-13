@@ -1,0 +1,90 @@
+.mygoals-container {
+    height: 100vh;
+    width: 90vw;
+    color: #fff;
+    margin: 30px 100px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.mygoals-container h1 {
+    font-size: 45px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+}
+
+.water-span {
+    color: #636BA4;
+}
+
+.calories-span {
+    color: #D50909;
+}
+
+.water-consumption {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.set-goals {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.goals {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.set-goals p {
+    font-size: 25px;
+}
+
+.set-goals input {
+    margin: 0px 15px;
+    padding: 3px;
+    background-color: #ffffff00;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+}
+
+.calories-input {
+    color: #D50909;
+}
+
+.water-input {
+    color: #636BA4;
+}
+
+.calories-h1 {
+    margin-top: 200px;
+}
+
+.goal-btn {
+    background-color: #ffffff00;
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    padding: 4px;
+    transition: all ease-in-out .5s;
+}
+
+.water-goal-btn:hover {
+    cursor: pointer;
+    color: #636BA4;
+}
+
+.calories-goal-btn:hover {
+    cursor: pointer;
+    color: #D50909;
+}

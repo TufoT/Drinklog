@@ -1,0 +1,150 @@
+.help-container {
+    height: 100vh;
+    width: 90vw;
+    color: #fff;
+    margin: 30px 100px;
+}
+
+.help-items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.high-calories {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.high-calories h1 {
+    font-size: 45px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+}
+
+.high-calories h1 span {
+    color: #D50909;
+}
+
+.high-cal-row1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.high-cal-row2 {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.item p {
+    font-size: 18px;
+}
+
+.cal-circle {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: #D50909;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.pasta-text {
+    margin-right: 41px;
+}
+
+.greek-text {
+    margin-right: 7px;
+}
+
+.low-calories {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.low-calories h1 {
+    font-size: 45px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+    margin-top: 65px;
+}
+
+.low-calories h1 span {
+    color: #D50909;
+}
+
+.low-cal-row1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.low-cal-row2 {
+    display: flex;
+    align-items: center;
+}
+
+.soup-text {
+    margin-right: 34px;
+}
+
+.drinks {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.drinks h1 {
+    font-size: 45px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+    margin-top: 65px; 
+}
+
+.drinks h1 span {
+    color: #636BA4;
+}
+
+.drinks-row-one {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.drinks-row-two {
+    display: flex;
+    align-items: center;
+}
+
+.drink-circle {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: #636BA4;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.milk-text {
+    margin-right: 61px;
+}
+
+.coffee-text {
+    margin-right: 16px;
+}
+

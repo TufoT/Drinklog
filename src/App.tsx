@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Sidebar from "./components/Sidebar";
+import Dashboard from "./components/Dashboard";
+import "./index.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Mygoals from "./components/Mygoals";
+import Help from "./components/Help";
+import DataContextProvider from "./context/Context";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app-container">
+        <Sidebar />
+          <DataContextProvider>
+        <Routes>
+            <Route path="/Dashboard" element={<Dashboard />} />
+            <Route path="/Mygoals" element={<Mygoals />} />
+            <Route path="/Help" element={<Help />} />
+            <Route path="*" element={<Dashboard />} />
+        </Routes>
+          </DataContextProvider>
+      </div>
+    </Router>
   );
 }
 
